@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Spellcast.Dictionary\Spellcast.Dictionary.csproj" />
+      <ProjectReference Include="..\Spellcast.Core\Spellcast.Core.csproj" />
     </ItemGroup>
 
 </Project>

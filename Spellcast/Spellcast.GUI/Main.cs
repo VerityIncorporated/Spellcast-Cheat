@@ -8,8 +8,7 @@ public partial class Main : Form
     }
 
     private readonly List<TextBox> textBoxes = new();
-    private List<TextBox> textBoxesInOrder = new();
-    private readonly Dictionary.Main Dictionary = new(@"C:\Users\Nathan Roberts\Downloads\Dictionary3.txt", 5, 5);
+    private readonly Core.Engine engine = new(5, 5);
 
     private void Main_Load(object sender, EventArgs e)
     {
@@ -20,15 +19,14 @@ public partial class Main : Form
                 textBoxes.Add(box);
             }
         }
-
-        textBoxesInOrder = textBoxes.OrderBy(s => GetNumberFromName(s.Name)).ToList();
     }
 
     private void getbestwordButton_Click(object sender, EventArgs e)
     {
         var letters = textBoxes.Select(tb => tb.Text).ToArray();
-        var inputGrid = Dictionary.ConvertToGrid(string.Join("", letters));
-        var bestWord = Dictionary.GetBestWord(string.Join("", letters));
+        
+        var input = string.Join("", letters);
+        var bestWord = engine.GetBestWord(input);
 
         bestwordLabel.Text = $@"Best word: {bestWord}";
 
@@ -38,7 +36,7 @@ public partial class Main : Form
         }
 
         var currentBox = 0;
-        var wordPositions = Dictionary.FindWordPositions(bestWord, inputGrid);
+        var wordPositions = engine.GetWordPosition(input, bestWord);
         foreach (var (row, column) in wordPositions)
         {
             currentBox += 1;

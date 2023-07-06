@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spellcast.Dictionary", "Spellcast.Dictionary\Spellcast.Dictionary.csproj", "{69FDE20B-FBD6-4D62-B581-8950819B635D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spellcast.Core", "Spellcast.Core\Spellcast.Core.csproj", "{69FDE20B-FBD6-4D62-B581-8950819B635D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spellcast.CLI", "Spellcast.CLI\Spellcast.CLI.csproj", "{84B36A89-0D9E-4B29-A4AF-EB3258EFF726}"
 EndProject
