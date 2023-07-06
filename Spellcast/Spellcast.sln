@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spellcast.Dictionary", "Spellcast.Dictionary\Spellcast.Dictionary.csproj", "{69FDE20B-FBD6-4D62-B581-8950819B635D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spellcast.CLI", "Spellcast.CLI\Spellcast.CLI.csproj", "{84B36A89-0D9E-4B29-A4AF-EB3258EFF726}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spellcast.GUI", "Spellcast.GUI\Spellcast.GUI.csproj", "{D33E7CB2-5D0F-4CB5-96FE-4C30A07920BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69FDE20B-FBD6-4D62-B581-8950819B635D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FDE20B-FBD6-4D62-B581-8950819B635D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FDE20B-FBD6-4D62-B581-8950819B635D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FDE20B-FBD6-4D62-B581-8950819B635D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B36A89-0D9E-4B29-A4AF-EB3258EFF726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B36A89-0D9E-4B29-A4AF-EB3258EFF726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B36A89-0D9E-4B29-A4AF-EB3258EFF726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B36A89-0D9E-4B29-A4AF-EB3258EFF726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33E7CB2-5D0F-4CB5-96FE-4C30A07920BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33E7CB2-5D0F-4CB5-96FE-4C30A07920BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33E7CB2-5D0F-4CB5-96FE-4C30A07920BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33E7CB2-5D0F-4CB5-96FE-4C30A07920BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
