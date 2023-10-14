@@ -1,2 +1,2 @@
 # Spellcast-Cheat
-Simple Spellcast written in C#.
+Simple Spellcast Cheat written in C#.
